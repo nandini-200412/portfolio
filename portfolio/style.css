@@ -101,6 +101,25 @@ body {
   top: 30%;
   left: 50%;
 }
+.shape.circle-small {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: #ff9f43;
+  top: 60%;
+  left: 15%;
+  animation: float 7s ease-in-out infinite;
+}
+
+.shape.diamond {
+  width: 40px;
+  height: 40px;
+  background: #00d2d3;
+  transform: rotate(45deg);
+  top: 20%;
+  left: 80%;
+  animation: float 5s ease-in-out infinite;
+}
 
 @keyframes float {
   0% { transform: translateY(0) rotate(0deg); }
@@ -230,4 +249,5 @@ body {
     grid-template-columns: 1fr; /* stack skill cards */
   }
 }
+
 
